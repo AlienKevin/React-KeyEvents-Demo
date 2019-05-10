@@ -86,11 +86,18 @@ class App extends Component {
                 }}
               >
                 <p
-                  style={{
-                    background: "white",
-                    borderRadius: ".4em",
-                    padding: ".2em"
-                  }}
+                  style={
+                    keyEvent
+                      ? {
+                          borderRadius: ".4em",
+                          padding: ".2em",
+                          background: "white"
+                        }
+                      : {
+                          borderRadius: ".4em",
+                          padding: ".2em"
+                        }
+                  }
                 >
                   {keyEventName}
                 </p>

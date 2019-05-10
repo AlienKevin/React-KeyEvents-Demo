@@ -1,8 +1,12 @@
 {
-  "name": "new",
+  "name": "react-keyevent-demo",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "key",
+    "demo"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.6",
